@@ -17,7 +17,7 @@ func Example() {
 	sm.WriteTo(os.Stdout)
 	// Output:
 	// <?xml version="1.0" encoding="UTF-8"?>
-	// <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	// <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	//   <url>
 	//     <loc>http://example.com/</loc>
 	//     <lastmod>1970-01-01T00:00:00Z</lastmod>
